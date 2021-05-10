@@ -28,11 +28,19 @@
     // Element won't shrink if there is not enough space
     // Element's initial size is 18%
     flex: 0 0 18%;
+    
+    display: flex;
+    // Stretch the elements in the flex container vertically
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
     background-color: var(--color-white);
+    
+    // TEST
     background-color: orangered;
+    height: 80rem;
     
     flex: 1;
 }
