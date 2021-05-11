@@ -10,8 +10,8 @@
     font-size: 1.4rem;
     height: 7rem;
     background-color: var(--color-white);
-    border-bottom: var(--color-grey-light-2);
-    
+    border-bottom: 1px solid var(--color-grey-light-2);
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,12 +23,12 @@
 
 .sidebar {
     background-color: var(--color-grey-dark-1);
-    
+
     // Element won't grow if there is space
     // Element won't shrink if there is not enough space
     // Element's initial size is 18%
     flex: 0 0 18%;
-    
+
     display: flex;
     // Stretch the elements in the flex container vertically
     flex-direction: column;
@@ -37,10 +37,9 @@
 
 .hotel-view {
     background-color: var(--color-white);
-    
+
     // TEST
-    background-color: orangered;
     height: 80rem;
-    
+
     flex: 1;
 }
